@@ -4,7 +4,7 @@ import java.awt.*;
  * @author Nicklas, Lukas, Emil, Martin.
  * A class for car model Saab95
  */
-public class Saab95 extends Car {
+public class Saab95 extends Vehicle {
     private boolean turboOn;
 
     /**

@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class    TestSaab95 {
+public class TestSaab95 {
     @Test
     public void testSetTurboOn (){
         Saab95 s = new Saab95();

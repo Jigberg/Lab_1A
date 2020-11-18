@@ -5,7 +5,7 @@ import java.awt.*;
  * A class for car model Volvo240
  */
 
-public class Volvo240 extends Car {
+public class Volvo240 extends Vehicle {
     private final static double trimFactor = 1.25;
 
     /**
@@ -15,6 +15,9 @@ public class Volvo240 extends Car {
         super(4, 100, Color.black, "Volvo240");
     }
 
+     boolean isDrivable(){
+        return true;
+    }
     /**
      * Calculates the speedfactor.
      * Uses trimFactor.
